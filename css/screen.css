@@ -33,7 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
-}a
+}
 blockquote, q {
 	quotes: none;
 }
@@ -252,55 +252,48 @@ textarea {
 }
 
 body {
-	background-color: #FFEBFC;
+	background-color: #878483;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	font-family:bookman;
+	font-family: 'Kodchasan', sans-serif;
 	font-size: 19px;
 
 }
 label{
 	padding: 10px;
 }
+form{
+	text-align: center;
+}
+
+.field{
+	padding-bottom: 15px;
+	font-size: 30px;
+}
 
 h1  {
-	font-family: palatino;
+	font-family: 'Kodchasan', fantasy;
 	text-align: center;
 	font-size: 50px;
 	color: #0e1413;
 	padding-bottom: 20px;
 }
 
-input {
-	padding: 10px;
-	margin-right: auto;
-	margin-left: auto;
+input[name="fName"], input[name="email_field"] {
 	text-align: center;
+	font-family: 'Kodchasan',cursive;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	border: 0;
 }
 
-input[type=text], input[type=email] {
-	width: 25%;
-	font-size: 15px;
-	padding: 8px;
-}
-/*
- {
-	margin-right: auto;
-	margin-left: auto;
-}
 
- {
-	margin-right: auto;
-	margin-left: auto;
-}
-
- {
-	margin-right: auto;
-	margin-left: auto;
-}*/
 
 input[type="submit"] {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top:10px;
