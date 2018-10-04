@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-  <title>Lab 2</title>
+  <title>Lab 3</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel = "stylesheet" type = "text/css" href="css/screen.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
 </head>
 <body>
   <form method = "get" action="#null">
     <fieldset>
-      <h1>Sign Up For Web Development</h1>
-      <div>
+      <h1>Sign Up For The Web Development Newsletter</h1>
+      <div class="field">
         <label>Name:</label>
         <input type = "text" name = "fName" placeholder = "Full Name">
       </div>
 
-      <div>
+      <div class="col-md-1" style="">
         <label>E-mail:</label>
         <input type = "email" name = "email_field" placeholder = "you@example.com">
       </div>
 
-      <div>
-        <label>Phone Number:</label>
-        <input type = "text" name = "phone_num" placeholder = "(XXX)-XXX-XXXX">
-      </div>
-
-      <div>
-        <label>Birthday:</label>
-        <input type="text" name="date" id="date" placeholder="MM/DD/YYY">
-      </div>
+      <label style="color: white">
+                <input type="checkbox" class="" style="" id="checkbox">
+                <p>BY CLICKING ON THIS I CONSENT THAT I AM ABOVE 18 YEARS.</p>
+              </label>
+            </div>
 
               <button onclick="myFunction()">Submit</button>
 
               <p id="subbut"></p>
 
-              
+
   </fieldset>
   </form>
+
 </body>
 </html>
